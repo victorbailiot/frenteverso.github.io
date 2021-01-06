@@ -683,9 +683,11 @@ input, select, textarea {margin :0;}
 }
 
 /*************BRIDAL WEAR SECTION START*************/
-.bridal-img{
-    overflow: hidden;
-    height: 490px;
+@media screen and (min-width:768px){
+    .bridal-img{
+        overflow: hidden;
+        height: 490px;
+    }
 }
 .bridal-img img{
     transition: 1s ease;
