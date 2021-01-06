@@ -685,8 +685,7 @@ input, select, textarea {margin :0;}
 /*************BRIDAL WEAR SECTION START*************/
 .bridal-img{
     overflow: hidden;
-    max-width: 960px;
-    max-height: 634px;
+    height: 550px;
 }
 .bridal-img img{
     transition: 1s ease;
