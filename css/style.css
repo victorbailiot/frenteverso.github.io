@@ -5,6 +5,18 @@
 .text-black{
     color: #222;
 }
+@media screen and (min-width:768px){
+    .text-size--banner2{
+        font-size: 48px !important; 
+        margin-left: -50px !important;
+        padding-top: 50px !important;
+    }
+    .text-size--banner{
+        font-size: 122px !important;
+        margin-left: -50px !important;
+        padding-top: 50px !important;
+    }
+}
 .text-grad{
     background-image: linear-gradient( to bottom right, #0075f4, #26ffbe);
     -webkit-background-clip: text;
@@ -646,14 +658,18 @@ input, select, textarea {margin :0;}
     transition: 0.5s ease;
 }
 .trans-btn{
-    background-color: transparent;
     color: #222;
-    border: 1px solid #222;
+    border: 1px solid ;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( to bottom right, #0075f4, #26ffbe) ;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
 }
 .trans-btn:hover{
-    background-color: #222;
-    border: 1px solid #222;
-    color: #fff;
+    background-image: linear-gradient( to bottom right, #0075f4, #26ffbe);
+    -webkit-background-clip: padding-box;
+
+    color: #fff !important;
 }
 .black-btn:hover{
     background-color: transparent;
@@ -830,7 +846,8 @@ input, select, textarea {margin :0;}
 
 /*****************DISCOUNT SECTION START**************/
 .discount{
-    margin-top: 150px;
+    margin-top: 0px;
+    border-top: 5px outset rgb(155, 155, 155)
 }
 .bg-discount{
     background-image: url("../img/parallax.jpg");
