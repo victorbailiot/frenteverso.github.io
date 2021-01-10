@@ -975,7 +975,16 @@ li.footer_list:hover{
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;-
+    -moz-text-fill-color: transparent;
+    text-decoration: none;
+}
+.footer_face{
+    background-image: linear-gradient( to bottom right, #007bff, #0766cc);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-decoration: none;
 }
 /******CHOOSE SECTION START******/
 .choose{
