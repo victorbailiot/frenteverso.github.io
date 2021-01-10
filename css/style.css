@@ -17,8 +17,9 @@
         padding-top: 50px !important;
     }
 }
+
 .text-grad{
-    background-image: linear-gradient( to bottom right, #0075f4, #26ffbe);
+    background-image: linear-gradient( to bottom right, #026bdb, #0efcb4);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -644,7 +645,7 @@ input, select, textarea {margin :0;}
     font-size: 75px;
 }
 .btn-slider{
-    padding: 13px 28px;
+    padding: 13px 125px;
     cursor: pointer;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -658,18 +659,17 @@ input, select, textarea {margin :0;}
     transition: 0.5s ease;
 }
 .trans-btn{
-    color: #222;
-    border: 1px solid ;
+    color: #f5f5f5;
+    border: 1px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient( to bottom right, #0075f4, #26ffbe) ;
+    border-image-source: linear-gradient( to bottom right, #0075f4, #26ffbe);
     -webkit-background-clip: text;
     -moz-background-clip: text;
 }
 .trans-btn:hover{
     background-image: linear-gradient( to bottom right, #0075f4, #26ffbe);
     -webkit-background-clip: padding-box;
-
-    color: #fff !important;
+    color: rgb(36, 36, 36) !important;
 }
 .black-btn:hover{
     background-color: transparent;
@@ -944,10 +944,10 @@ ul.footer_ul{
     display: inline-block;
 
 }
-li.footer_list{
+.footer_list{
     display: inline-block;
-    margin-right: 10px;
-    font-size: 19px;
+    margin-right: 20px;
+    font-size: 24px;
     color: #222;
     cursor: pointer;
     width: 50px;
@@ -970,7 +970,13 @@ li.footer_list:hover{
     text-align: center;
     padding-bottom: 60px;
 }
-
+.footer_insta{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;-
+}
 /******CHOOSE SECTION START******/
 .choose{
     margin-top: 150px ;
